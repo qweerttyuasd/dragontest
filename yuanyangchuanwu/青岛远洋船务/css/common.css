@@ -1,0 +1,22 @@
+@charset "utf-8";
+body,ul,ol,h1,h2,h3,h4,h5,h6,p,span,em,strong,a,button{margin: 0;padding: 0;}
+ul,ol{list-style: none;}
+img{vertical-align:middle;}
+a{text-decoration: none;}
+.clearfix:after{content: "";display: block;clear: both;}
+em{font-style: normal;}
+
+
+/* table,td{border: 0;}
+td{width: 64px;}
+table{border-collapse: collapse;}
+tr{height: 26px;} */
+
+.gWidth{
+	width: 1002px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+

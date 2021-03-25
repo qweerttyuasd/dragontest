@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>青岛远洋船务工程有限公司</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/main.css" />
+    
+<link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <div class="head">
+        <div class="gWidth">
+            <div class="he_top">
+                <span>中文</span><em>|</em><span>English</span>
+            </div>
+            <div class="he_left">
+                <img src="img/logo.png" alt="">
+            </div>
+            <ul class="he_right">
+                <li><a href="关于我们.html" title="关于我们">关于我们</a></li>
+                <li><a href="业务领域.html" title="业务领域">业务领域</a></li>
+                <li><a href="技术保障.html" title="技术保障">技术保障</a></li>
+                <li><a href="船坞说明.html" title="船坞说明">船坞说明</a></li>
+                <li><a href="新闻中心.html" title="新闻中心">新闻中心</a></li>
+                <li><a href="人力资源.html" title="人力资源">人力资源</a></li>
+                <li><a href="联系我们.html" title="联系我们">联系我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner" id="b04">
+        <ul>
+            <li class="slider-item"><a href="#"><img src="img/banner.gif" alt="小米进军泡面界，5块一桶还包邮？雷军回应；92女生：360关闭直播不诚恳，需周鸿祎道歉；传阿里即将控股A站|早报"  ><span class="slider-title"></span></a></li>
+            <li class="slider-item"><a href="#"><img src="img/banner.gif" alt="如果你是创业者，你或许应该琢磨琢磨投资人是怎么想的"  ><span class="slider-title"></span></a></li>
+            <li class="slider-item"><a href="#"><img src="img/banner.gif" alt="傅盛：生物学思维给我的四个启示" ><span class="slider-title"></span></a></li>
+            <li class="slider-item"><a href="#"><img src="img/banner.gif" alt="重仓何小鹏" ><span class="slider-title"></span></a></li>
+            <li class="slider-item"><a href="#"><img src="img/banner.gif" alt="深潜：王石的创业" ><span class="slider-title"></span></a></li>
+        </ul>
+        <div class="progress"></div>
+        <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="img/arrowl.png" alt="prev" width="20" height="35"></a>
+        <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="img/arrowr.png" alt="next" width="20" height="37"></a>
+    </div>
+    
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/unslider.min.js"></script>
+    <script>
+    $(document).ready(function(e) {
+        var progress = $(".progress"),li_width = $("#b04 li").length;
+        var unslider04 = $('#b04').unslider({
+            dots: true,
+            complete:function(index){//自己添加的，官方没有
+                progress.animate({"width":(100/li_width)*(index+1)+"%"});
+            }
+        }),
+    
+        data04 = unslider04.data('unslider');
+        $('.unslider-arrow04').click(function() {
+            var fn = this.className.split(' ')[1];
+            data04[fn]();
+        });
+    });
+    </script>
+
+
+        <div class="ywly gWidth">
+         <img class="fl" src="img/ywly1.gif" alt="">
+         <ul>
+             <li>
+                 <img src="img/ywly2.gif" alt="">
+                 <p>船舶航修</p>
+             </li>
+             <li>
+                 <img src="img/ywly3.gif" alt="">
+                 <p>船舶航修</p>
+            </li>
+             <li>
+                 <img src="img/ywly4.gif" alt="">
+                 <p>船舶航修</p>
+            </li>
+         </ul>
+        </div>
+        <div class="xwzx gWidth">
+            <div class="zuo">
+                <div class="zuos">
+                    <p>新闻中心</p>
+                    <p style="float: right;"><a href="#">更多</a></p>
+                </div>
+                <div class="xia">
+                    <ul>
+                        <li>
+                            <span class="active">2041-04-21</span>
+                            <p>公司积极贯彻落实“三项法规”和“专项治理工作意见”完善制度建设</p>
+                            <p>船务公司针对中央公布的《关于实行党政领导干部问责的暂行规定》、《中国共产党巡视工作条例……</p>
+                            <p>READ MORE</p>
+                        </li>
+                        <li><span>2041-04-21</span>
+                            <p>公司积极贯彻落实“三项法规”和“专项治理工作意见”完善制度建设</p>
+                            <p>船务公司针对中央公布的《关于实行党政领导干部问责的暂行规定》、《中国共产党巡视工作条例……</p>
+                            <p>READ MORE</p>
+                        </li>
+                        <li><span>2041-04-21</span>
+                            <p>公司积极贯彻落实“三项法规”和“专项治理工作意见”完善制度建设</p>
+                            <p>船务公司针对中央公布的《关于实行党政领导干部问责的暂行规定》、《中国共产党巡视工作条例……</p>
+                            <p>READ MORE</p>
+                        </li>
+                        <li><span>2041-04-21</span>
+                            <p>公司积极贯彻落实“三项法规”和“专项治理工作意见”完善制度建设</p>
+                            <p>船务公司针对中央公布的《关于实行党政领导干部问责的暂行规定》、《中国共产党巡视工作条例……</p>
+                            <p>READ MORE</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="rou">
+                <div class="rous">
+                    <p>船坞说明</p>
+                    <p style="float: right;"><a href="#">更多</a></p>
+                </div>
+                
+            <div class="roux">
+
+
+
+                <div class="rouz">
+                    <div class = 'container'>
+                        <div class = 'product_container'>
+                        
+                            <div id = 'product_one' class='product'>
+                                <img src= 'img/sy2.gif' alt= 'red headphones' class = 'image'>
+                            </div>
+                        
+                            <div id = 'product_two' class='product'>
+                                <img src = 'img/sy2.gif' alt = 'blue headpones' class = 'image'>
+                            </div>
+                        
+                            <div id = 'product_three' class='product'>
+                                <img src = 'img/sy2.gif' alt = 'white headpones' class = 'image'>
+                            </div>
+                        
+                            <div id = 'product_four' class='product'>
+                                <img src = 'img/sy2.gif' alt = 'black headpones' class = 'image'>
+                            </div>  
+                            
+                            <div class = 'nav_btns'>
+                                <a href = '#product_one' class='link first_link'></a>
+                                <a href = '#product_two' class='link second_link'></a>
+                                <a href = '#product_three' class='link third_link'></a>
+                                <a href = '#product_four' class='link fourth_link'></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <script  src="js/script.js"></script>
+                </div>
+
+
+
+
+                <img style="margin-left:10px;margin-top: 20px; " src="img/xwzx1.gif" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="cpjs gWidth">
+            <p>产品介绍</p>
+            <img style="float: left;margin-top: 10px;" src="img/cpjs1.gif" alt="">
+            <ul>
+                <li><img src="img/cpjs2.gif" alt=""></li>
+                <li><img src="img/cpjs2.gif" alt=""></li>
+                <li><img src="img/cpjs2.gif" alt=""></li>
+                <li><img src="img/cpjs2.gif" alt=""></li>
+                <li><img src="img/cpjs2.gif" alt=""></li>
+                <li><img src="img/cpjs2.gif" alt=""></li>
+                <li><img src="img/cpjs2.gif" alt=""></li>
+                <li><img src="img/cpjs2.gif" alt=""></li>
+            </ul>
+            <img style="margin-top: 10px;" src="img/cpjs3.gif" alt="">
+        </div>
+        <div class="yqlj">
+            <div class="yqljz gWidth">
+                <p class="p1">友情链接</p>
+                <p class="p2">中国远洋运输（集团）           公司青岛远洋运输公司           青岛远洋投资发展有限公司</p>
+            </div>
+        </div>
+        <!-- 
+            页面内容
+            页面内容
+            页面内容
+        -->
+
+
+
+    <div class="footer">
+        <div class="gWidth">
+            <ul class="fo_top">
+                <li>关于我们</li><li>业务领域</li><li>技术保障</li><li>新闻中心</li><li>人才招聘</li><li>与青远船务互动</li>
+            </ul>
+            <ul class="fo_center">
+                <li>
+                    <a href="">公司简介</a>
+                    <a href="">服务领域</a>
+                    <a href="">资质荣誉</a>
+                </li>
+                <li>
+                    <a href="">船舶航修</a>
+                    <a href="">船舶坞修</a>
+                    <a href="">船舶技术服务</a>
+                    <a href="">船舶物料备件供应</a>
+                </li>
+                <li>
+                    <a href="">技术实力</a>
+                    <a href="">设备设施</a>
+                </li>
+                <li>
+                    <a href="">企业动态</a>
+                    <a href="">行业资讯</a>
+                </li>
+                <li>
+                    <a href="">人才理念</a>
+                    <a href="">人才招聘</a>
+                </li>
+                <li>
+                    <div>
+                        <img src="img/gfwx.jpg" alt="">
+                        <span>官方微信</span>
+                    </div>
+                    <div>
+                        <img src="img/gfwx.jpg" alt="">
+                        <span>官方网站</span>
+                    </div>
+                </li>
+            </ul>
+            <strong></strong>
+            <p class="fo_bottom">青岛远洋船务工程有限公司版权所有&nbsp;&nbsp;鲁ICP备&nbsp;12345678号&nbsp;&nbsp;&copy;2014-2015COSOCOQDSHIPYARD
+                <span><a href="">网站地图</a><em>|</em><a href="">联系我们</a></span></p>
+        </div>
+    </div>
+</body>
+</html>
